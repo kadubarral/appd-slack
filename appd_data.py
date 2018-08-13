@@ -1,6 +1,6 @@
 from appd.request import AppDynamicsClient
 
-c = AppDynamicsClient('https://sulamerica.saas.appdynamics.com', 'api', 'api', 'sulamerica')
+c = AppDynamicsClient('https://sulamerica.saas.appdynamics.com', '******', '*******', 'sulamerica')
 
 def get_app():
     #return c.get_applications()
